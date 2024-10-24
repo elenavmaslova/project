@@ -1,0 +1,36 @@
+<div class="contacts">
+    <section class="listing contacts__listing">
+      <h2 class="listing__title section-title">Контакты</h2>
+      <div class="contacts-list">
+        <!-- prettier-ignore -->
+        @@loop('article-card.html', [
+        {
+          "class": "contacts-card",
+          "img": "assets/images/location.png",
+          "alt": "Theatre Photosession",
+          "title": "Томск, Белая 8",
+          "descr": "2 этаж",
+          "descr2": "оф. 207-208"
+        },
+        {
+            "class": "contacts-card",
+            "img": "assets/images/home.png",
+            "alt": "Theatre Photosession",
+            "title": "Отдел аренды ",
+            "descr": "+7 499 350 0730",
+            "descr2": "hi@tagree.ru"
+        },
+        {
+            "class": "contacts-card",
+          "img": "assets/images/star.png",
+          "alt": "Theatre Photosession",
+          "title": "Отдел мероприятий ",
+          "descr": "+7 499 350 0730",
+          "descr2": "hi@tagree.ru"
+          }
+      ])
+      </div>
+      <!-- Кнопка "Показать все" -->
+    </section>
+    <!-- Остальная разметка -->
+  </div>
